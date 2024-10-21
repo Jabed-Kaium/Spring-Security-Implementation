@@ -1,5 +1,7 @@
-package com.example.securityimpl;
+package com.example.securityimpl.util;
 
+import com.example.securityimpl.Role;
+import com.example.securityimpl.User;
 import com.example.securityimpl.repositories.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
