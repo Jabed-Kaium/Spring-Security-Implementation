@@ -1,4 +1,12 @@
-#### Purpose of AuthenticationManager
+### Purpose of UserDetailsServiceImpl
+The UserDetailsServiceImpl class is typically responsible for:
+<ol>
+  <li>Loading user data: Retrieving user data from a data store, such as a database, based on the username or other identifying information.</li>
+  <li>Creating a UserDetails object: Creating a UserDetails object from the retrieved user data, which contains information such as the username, password, roles, and authorities.</li>
+  <li>Returning the UserDetails object: Returning the UserDetails object to Spring Security, which uses it to authenticate and authorize the user.</li>
+</ol>
+
+### Purpose of AuthenticationManager
 <p>When a user attempts to log in, the AuthenticationManager is called to authenticate the user's credentials. It performs the following tasks:</p>
 
 <p>
